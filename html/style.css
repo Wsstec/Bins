@@ -4,77 +4,78 @@
     font-family: 'Mukta', sans-serif;
 }
 
-.logo-bin {
-    width: 350%;
-    padding: -500px;
-   
+.superior {
+    background-color: darkblue;
+    color: white;
+     text-align: center;
+     font-family: sans-serif,"Helvetica Neue",Helvetica,Arial;
 }
 
 
-button {
-    color:white;
-    background-color: #000000;
-    border-radius: 3px;
-    border: none;
-    margin-top: 20px;
-    width: 200px;
+.cabecalho {
+    margin: auto;
+    background-color: #33b9ec;
+    color: white;
+    width: 330px;
     height: 50px;
-    cursor: pointer;
-    text-transform: uppercase;
-    font-weight: bold;
-
-}
-
-body {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-around;
-    padding: 50px;
-    height: 100vw;
-    top: 0;
-    background-image: url('./img/fundo.jpg');
-    background-size: cover;
-    background-position: center;	
-	background-repeat: repeat;
-
-}
-
-.caixa-principal {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 100px;
-    height: 300px;
-    padding: 300px;
-
-}
-
-.formulario {
-    border-radius: 10px;
-    margin-top: 10px;
-    padding: 30px 20px;
-    width: 310px;
-    min-height: 334px;
-    background-color: #191970;
-    color: #191970;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    justify-content: center;
+    font-family: sans-serif,"Helvetica Neue",Helvetica,Arial;
+    font-size: 14px;
     
 }
 
-textarea {
-    height: 100px;
-    width: 300px;
-    padding: 0px;
-    border: 1px solid rgb(58, 135, 236);
-    border-radius: 5px;
-    outline-color: rgb(17, 0, 255);
-    font-size: large;
- 	text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+.formulario {
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    background-color:#33343e; 
+    width: 272px;
+    height: 300px;
+    padding: 30px;  
+    flex-direction: column;
+    font-family: sans-serif,"Helvetica Neue",Helvetica,Arial;
+    font-size: 16px;
+} 
+
+ textarea {
+        height: 150px;
+        width: 260px;
+        border: 1px solid;
+        font-size: 14px;
+        text-align: center;
+        font-size: 16px;
+        font-family: sans-serif,"Helvetica Neue",Helvetica,Arial;
+        
+    }
+
+button {
+    background-color: #33b9ec;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    width: 100px;
+    height: 50px;
+    float: right;
+    font-family: sans-serif,"Helvetica Neue",Helvetica,Arial;
+    
+      
 }
 
+.main {
+   display: flex;
+   padding: 50px;
+   flex-direction: column;
+   padding:  20px;
+   gap: 7px;
+}
+
+p {
+    text-align: center;
+    font-family: sans-serif,"Helvetica Neue",Helvetica,Arial;
+    color: #7d7d7d;
+        
+}
