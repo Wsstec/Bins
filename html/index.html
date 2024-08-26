@@ -4,31 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Check Bins.</title>
+    <title>Verificação Bins.</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    
-    <div class="caixa-principal">
-        <img src="./img/bin1.jpg" alt="logo-bin" class="logo-bin">
+    <header class="superior"> 
+        <h1> Logistica TI Monitoração - Payware </h1>
+    </header>
+
+ <main class="main">
+        <div class="cabecalho"> <h3>Verificar Bins Encontradas</h3> </div>
 
         <div class="formulario">
             <form>
-                <textarea placeholder="Insira as Bins encontradas!" id='numerico'></textarea>
-                <button> Check ! </button>
+                <textarea style="resize: none;" placeholder="Insira as Bins encontradas!" id='numerico'></textarea>
+                <button> Consultar </button>
             </form>
         </div>
-
-    </div>
+        
+        <div class="texto">
+            <br>
+            <p> Esta aplicação é voltada exclusivamente para a consulta das Bins encontradas
+                nos incidentes: Monitor_Erro_91, Monitor_Erro_96. 
+                Ocorridos no servidor LMPH.
+            </p>
+        </div>
+    
+</main>
 
 </body>
 
-<script>
-document.getElementById('numerico').addEventListener('input', function() {
-  this.value = this.value.replace(/^~0-9]g, ");
-});  
- </script>
-
+<script src="./bins.js"></script>
 
 </html>
